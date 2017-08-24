@@ -1,7 +1,7 @@
 .grid {
     display: grid;
     grid-template-columns: 300px auto;
-    grid-template-rows: 125px auto 100px 150px 125px;
+    grid-template-rows: 125px auto 175px 250px 125px;
     grid-template-areas: "header header"
         "sidebar content"
         "spacerone spacerone"
@@ -63,6 +63,8 @@ main p {
 
 .card-wrapper {
     display: flex;
+    z-index: 1000;
+    margin-top: -30em;
 }
 
 .card {
