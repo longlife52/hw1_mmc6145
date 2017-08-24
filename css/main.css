@@ -7,8 +7,6 @@
         "spacerone spacerone"
         "spacertwo spacertwo"
         "footer footer";
-
-    /*   grid-gap: 20px; */
 }
 
 .head {
@@ -22,7 +20,7 @@
 
 .aside {
     background: #efefef;
-    padding: 20px;
+    padding: 1.25em;
     color: black;
     grid-area: sidebar;
 }
@@ -43,7 +41,7 @@
 
 .content {
     background: #fafafa;
-    padding: 20px;
+    padding: 1.25em;
     grid-area: content;
 }
 
@@ -61,6 +59,51 @@ main p {
 .spacertwo {
     background: #fafafa;
     grid-area: spacertwo;
+}
+
+.card-wrapper {
+    display: flex;
+}
+
+.card {
+    border: 0.188em solid #939393;
+    padding: 0.625em;
+    font-family: Arial;
+    flex: 1;
+    margin-bottom: 2em;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:first-child {
+    margin-left: 3.125em;
+}
+
+.card:last-child {
+    margin-right: 3.125em;
+}
+
+.card__image img {
+    width: 100%;
+}
+
+.card__read-more {
+    align-self: flex-end;
+    margin-top: auto;
+    width: 100%;
+}
+
+.card__read-more button {
+    background: black;
+    width: 100%;
+    border: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.625em;
+    font-size: 1em;
 }
 
 .footer {
