@@ -1,0 +1,73 @@
+.grid {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 125px auto 100px 150px 125px;
+    grid-template-areas: "header header"
+        "sidebar content"
+        "spacerone spacerone"
+        "spacertwo spacertwo"
+        "footer footer";
+
+    /*   grid-gap: 20px; */
+}
+
+.head {
+    background: #d3d3d3;
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 1.5em;
+    grid-area: header;
+}
+
+.aside {
+    background: #efefef;
+    padding: 20px;
+    color: black;
+    grid-area: sidebar;
+}
+
+.aside ul li {
+    list-style-type: none;
+}
+
+.aside li {
+    padding-bottom: 1em;
+}
+
+.aside li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.content {
+    background: #fafafa;
+    padding: 20px;
+    grid-area: content;
+}
+
+main p {
+    color: black;
+    line-height: 1.5;
+    padding: 0 2em 3em 2em;
+}
+
+.spacerone {
+    background: #d3d3d3;
+    grid-area: spacerone;
+}
+
+.spacertwo {
+    background: #fafafa;
+    grid-area: spacertwo;
+}
+
+.footer {
+    background: #333333;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 1.5em;
+    grid-area: footer;
+}
