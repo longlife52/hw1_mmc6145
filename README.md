@@ -1,15 +1,4 @@
-# Project - Resume, Lisa Long
-
-## Github Project Link
-[Lisa's Project on Github.]()
-[Here's the link to my Resume on my web host.]()
-[Here's the project on W3C's Validator.]()
-[Here's the project on the HTML5 Outliner.]()
-
-## Resources
-[]()
-
-## Deductions
-I have reviewed the list of deductions for this project and in the syllabus.
+# HW 1 - MMC6145
 
 ## Comments
+Hi - Let me know if z-index was the best solution for floating flexbox on top of the grid.  That did stump me for a bit as I explored several ideas. Thanks.
