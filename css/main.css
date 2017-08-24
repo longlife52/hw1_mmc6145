@@ -13,8 +13,8 @@
     background: #d3d3d3;
     color: black;
     font-weight: bold;
-    font-size: 2em;
-    padding: 1.5em;
+    font-size: 1.5em;
+    padding: 0.5em 0 1em 2em;
     grid-area: header;
 }
 
@@ -70,7 +70,7 @@ main p {
 .card {
     border: 0.188em solid #939393;
     padding: 0.625em;
-    font-family: Arial;
+    font-family: arial;
     flex: 1;
     margin-bottom: 2em;
     margin-right: 15px;
@@ -113,6 +113,9 @@ main p {
     color: white;
     font-weight: bold;
     font-size: 2em;
-    padding: 1.5em;
     grid-area: footer;
+}
+
+.footer h2 {
+    padding: 0 0 1em 1em;
 }
